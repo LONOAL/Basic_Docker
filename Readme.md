@@ -98,3 +98,13 @@ exit
 
 Esto te llevará de regreso a la terminal del sistema anfitrión. El contenedor seguirá en ejecución.
 
+### 7. ¿Cuánta memoria en el disco duro ocupaste?
+
+Para verificar cuánto espacio en disco ocupan tus contenedores, ejecuta el siguiente comando:
+
+```bash
+docker system df
+```
+
+Este comando te proporcionará información sobre el uso de almacenamiento por parte de los contenedores, imágenes y volúmenes Docker.
+
