@@ -88,3 +88,13 @@ docker run -di --name dam_ubu2 ubuntu
 
 Para comprobar si puedes hacer ping entre los contenedores 'dam_ubu1' y 'dam_ubu2', primero necesitas encontrar la dirección IP del segundo contenedor 'dam_ubu2' usando el mismo método que en el paso 4. Luego, desde 'dam_ubu1', intenta hacer ping a 'dam_ubu2' usando su dirección IP.
 
+### 6. Sal del terminal - ¿Qué ocurrió con el contenedor?
+
+Para salir del terminal del contenedor, simplemente ejecuta el siguiente comando dentro del contenedor:
+
+```bash
+exit
+```
+
+Esto te llevará de regreso a la terminal del sistema anfitrión. El contenedor seguirá en ejecución.
+
