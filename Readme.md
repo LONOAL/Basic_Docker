@@ -108,3 +108,14 @@ docker system df
 
 Este comando te proporcionará información sobre el uso de almacenamiento por parte de los contenedores, imágenes y volúmenes Docker.
 
+### 8. ¿Cuánta RAM ocupan los contenedores? ¿Hay algún comando Docker para saber esto?
+
+Para obtener información sobre el uso de memoria RAM de los contenedores, puedes usar el siguiente comando de Docker:
+
+```bash
+docker stats
+```
+
+Este comando mostrará una lista de contenedores en ejecución junto con estadísticas de uso de CPU, memoria y más.
+
+¡Felicidades! Has completado la práctica con éxito. Si tienes más preguntas o necesitas ayuda adicional, no dudes en consultar la documentación de Docker o buscar en línea recursos adicionales. ¡Disfruta aprendiendo sobre Docker y Ubuntu!
