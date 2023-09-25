@@ -36,3 +36,17 @@ Para verificar si el contenedor está en ejecución y obtener su nombre, ejecuta
 docker ps
 ```
 
+### 3. Crea un contenedor con el nombre 'dam_ubu1'. ¿Cómo puedes acceder a él?
+
+Crea un nuevo contenedor con el nombre 'dam_ubu1' utilizando el siguiente comando:
+
+```bash
+docker run -di --name dam_ubu1 ubuntu
+```
+
+Para acceder al contenedor, puedes utilizar el siguiente comando:
+
+```bash
+docker exec -it dam_ubu1 bash
+```
+
