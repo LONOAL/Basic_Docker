@@ -22,4 +22,17 @@ Luego, verifica que la imagen se haya descargado correctamente:
 ```bash
 docker images
 ```
+### 2. Crea un contenedor sin ponerle nombre. ¿Está arrancado? Obtén el nombre
+
+Ahora, crea un contenedor sin asignarle un nombre con el siguiente comando:
+
+```bash
+docker run -di ubuntu 
+```
+
+Para verificar si el contenedor está en ejecución y obtener su nombre, ejecuta el siguiente comando:
+
+```bash
+docker ps
+```
 
