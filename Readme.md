@@ -50,3 +50,31 @@ Para acceder al contenedor, puedes utilizar el siguiente comando:
 docker exec -it dam_ubu1 bash
 ```
 
+### 4. Ayuda - Comprueba la dirección IP y realiza un ping a google.com
+
+Dentro del contenedor 'dam_ubu1', instala las herramientas necesarias:
+
+```bash
+apt update
+```
+---
+```bash
+apt install net-tools
+```
+---
+```bash
+apt install iputils-ping
+```
+
+Verifica la dirección IP utilizando el siguiente comando:
+
+```bash
+ifconfig
+```
+
+Luego, intenta hacer un ping a google.com para comprobar la conectividad de red:
+
+```bash
+ping google.com
+```
+
