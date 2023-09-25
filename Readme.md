@@ -78,3 +78,13 @@ Luego, intenta hacer un ping a google.com para comprobar la conectividad de red:
 ping google.com
 ```
 
+### 5. Crea un contenedor con el nombre 'dam_ubu2'. ¿Puedes hacer ping entre los contenedores?
+
+Crea un segundo contenedor con el nombre 'dam_ubu2' utilizando el siguiente comando:
+
+```bash
+docker run -di --name dam_ubu2 ubuntu 
+```
+
+Para comprobar si puedes hacer ping entre los contenedores 'dam_ubu1' y 'dam_ubu2', primero necesitas encontrar la dirección IP del segundo contenedor 'dam_ubu2' usando el mismo método que en el paso 4. Luego, desde 'dam_ubu1', intenta hacer ping a 'dam_ubu2' usando su dirección IP.
+
